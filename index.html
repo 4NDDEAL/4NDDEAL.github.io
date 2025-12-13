@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-black h-screen overflow-hidden flex">
+
+    <aside class="w-72 bg-black text-white h-full flex flex-col shadow-2xl z-10">
+        
+        <div class="p-8 border-b border-gray-800">
+            <h1 class="text-2xl font-bold tracking-wider">Pan Wongworachatkan</h1>
+            <p class="text-gray-400 text-xs mt-1">Computer Engineering and <br> Digital Technology <br> Chulalongkorn University </p>
+        </div>
+
+        <nav class="flex-1 overflow-y-auto no-scrollbar py-6 px-4 space-y-2">
+            <button onclick="showPage('about')" id="btn-about" 
+                class="nav-btn w-full text-left py-3 px-4 rounded-lg transition-all duration-200 bg-gray-800 text-white font-medium border-l-4 border-blue-500">
+                About Me
+            </button>
+
+            <button onclick="showPage('highschool')" id="btn-highschool" 
+                class="nav-btn w-full text-left py-3 px-4 rounded-lg transition-all duration-200 text-gray-400 font-medium border-l-4 border-transparent hover:bg-gray-800">
+                High School Achievements
+            </button>
+
+            <button onclick="showPage('university')" id="btn-university" 
+                class="nav-btn w-full text-left py-3 px-4 rounded-lg transition-all duration-200 text-gray-400 font-medium border-l-4 border-transparent hover:bg-gray-800">
+                University Achievements
+            </button>
+        </nav>
+
+        <!-- <div class="p-6 border-t border-gray-800 text-sm text-gray-500">
+            &copy; 2024 My Portfolio
+        </div> -->
+    </aside>
+
+    <main class="flex-1 h-full overflow-y-auto bg-white relative">
+        <div class="max-w-4xl mx-auto p-12 min-h-screen">
+            
+            <div id="about" class="page-section fade-in">
+                <h2 class="text-5xl font-bold mb-8 text-black border-b-4 border-black inline-block pb-2">About Me</h2>
+                <div class="space-y-6 text-lg text-gray-800 leading-relaxed">
+                    <p>test</p>
+                    <p>Text Text Text Text Text Text Text Text Text</p>
+                </div>
+                
+                <h3 class="text-2xl font-bold mt-12 mb-6">Activities & Life</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="aspect-square bg-gray-200 rounded hover:bg-gray-300 transition"></div>
+                    <div class="aspect-square bg-gray-200 rounded hover:bg-gray-300 transition"></div>
+                    <div class="aspect-square bg-gray-200 rounded hover:bg-gray-300 transition"></div>
+                    <div class="aspect-square bg-gray-200 rounded hover:bg-gray-300 transition"></div>
+                </div>
+            </div>
+
+            <div id="highschool" class="page-section hidden fade-in">
+                <h2 class="text-5xl font-bold mb-8 text-black border-b-4 border-black inline-block pb-2">High School</h2>
+                <p class="text-xl text-gray-600 mb-8">test</p>
+                <div class="space-y-6 text-lg text-gray-800">
+                    <p>Text Text Text Text Text Text Text Text Text</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+                    <div class="h-48 bg-gray-900 text-white flex items-center justify-center rounded">PIC</div>
+                    <div class="h-48 bg-gray-900 text-white flex items-center justify-center rounded">PIC</div>
+                    <div class="h-48 bg-gray-900 text-white flex items-center justify-center rounded">PIC</div>
+                </div>
+            </div>
+
+            <div id="university" class="page-section hidden fade-in">
+                <h2 class="text-5xl font-bold mb-8 text-black border-b-4 border-black inline-block pb-2">University</h2>
+                <p class="text-xl text-gray-600 mb-8">test</p>
+                <div class="space-y-6 text-lg text-gray-800">
+                    <p>Text Text Text Text Text Text Text Text Text</p>
+                </div>
+                <div class="grid grid-cols-2 gap-6 mt-10">
+                    <div class="aspect-video bg-gray-800 text-white flex items-center justify-center rounded">Project 1</div>
+                    <div class="aspect-video bg-gray-800 text-white flex items-center justify-center rounded">Project 2</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
