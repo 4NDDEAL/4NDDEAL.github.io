@@ -18,7 +18,7 @@ function showPage(pageId) {
     }
 }
 
-function toggleMenu(menuId) {
+window.toggleMenu = function(menuId) {
     const menu = document.getElementById(menuId);
     if (menu) {
         menu.classList.toggle('hidden');
