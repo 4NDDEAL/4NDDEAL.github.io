@@ -20,8 +20,21 @@ window.showPage = function(pageId) {
 
 window.toggleMenu = function(menuId) {
     const menu = document.getElementById(menuId);
+    
+    const arrow = document.getElementById('arrow-' + menuId);
+
     if (menu) {
-        menu.classList.toggle('hidden');
+        menu.classList.toggle('max-h-0');
+        menu.classList.toggle('opacity-0');
+
+        menu.classList.toggle('max-h-96');
+        menu.classList.toggle('opacity-100');
+
+        menu.classList.toggle('mt-1');
+    }
+
+    if (arrow) {
+        arrow.classList.toggle('rotate-180');
     }
 }
 

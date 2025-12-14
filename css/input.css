@@ -9,49 +9,39 @@
     .nav-item-active {
         @apply bg-gray-800 text-white border-blue-500;
     }
-    
     .section-title {
         @apply text-5xl font-bold mb-8 text-black border-b-4 border-black inline-block pb-2;
     }
-
     .section-subtitle {
         @apply text-xl text-gray-800 mb-8;
     }
-
     .section-description-header {
         @apply text-xl font-bold text-black mb-8;
     }
-
     .achievements-name {
         @apply text-3xl font-bold mb-8 text-black inline-block;
     }
-
     .img-frame {
         @apply rounded-xl shadow-lg overflow-hidden mb-4 relative;
     }
-
     .img-style {
         @apply w-full h-48 object-cover transition-transform duration-500;
     }
-
     .img-report-style {
         @apply w-full h-full object-cover transition-transform duration-700;
     }
-
     .picture-describer{
         @apply text-sm text-center flex flex-col cursor-pointer;
     }
-
     .picture-describer:hover .img-style {
         @apply scale-110; 
     }
-
     .picture-describer:hover .img-report-style {
         @apply scale-105; 
     }
 
     .dropdown {
-        @apply flex flex-col pl-4 border-l border-gray-700 ml-4 mt-1 transition-all;
+        @apply flex flex-col pl-4 border-l border-gray-700 ml-4 transition-all duration-500 ease-in-out overflow-hidden max-h-0 opacity-0;
     }
 }
 
