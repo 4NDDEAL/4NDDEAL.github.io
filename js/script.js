@@ -1,4 +1,4 @@
-function showPage(pageId) {
+window.showPage = function(pageId) {
     document.querySelectorAll('.page-section').forEach(page => {
         page.classList.add('hidden');
     });
@@ -18,7 +18,7 @@ function showPage(pageId) {
     }
 }
 
-function toggleDropDown(menuId) {
+window.toggleMenu = function(menuId) {
     const menu = document.getElementById(menuId);
     if (menu) {
         menu.classList.toggle('hidden');
