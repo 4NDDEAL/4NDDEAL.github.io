@@ -162,6 +162,19 @@
 
         </div>
     </main>
+
+    <div id="image-modal" onclick="closeModal()"
+        class="fixed inset-0 bg-black/90 z-[60] hidden flex justify-center items-center p-4 backdrop-blur-sm transition-opacity duration-300">
+    
+    <button onclick="closeModal()"
+            class="absolute top-6 right-6 text-white text-5xl font-bold hover:text-gray-400 transition-colors z-[70] cursor-pointer">
+        &times;
+    </button>
+
+    <img id="modal-img" src="" alt="Full Screen" 
+        class="max-h-[80vh] max-w-[80vw] object-contain rounded-lg shadow-2xl scale-95 transition-transform duration-300 select-none"
+        onclick="event.stopPropagation()">
+    </div>
     
     <script src="js/script.js"></script>
 </body>

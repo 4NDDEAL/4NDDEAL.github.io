@@ -66,6 +66,39 @@ window.toggleSidebar = function() {
     }
 }
 
+// ฟังก์ชันเปิดรูป
+window.openModal = function(imageSrc) {
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-img');
+
+    if (modal && modalImg) {
+        modalImg.src = imageSrc; // เอารูปที่กดมาใส่
+        modal.classList.remove('hidden'); // โชว์กล่อง
+        
+        // (Optional) Animation เล็กน้อย
+        setTimeout(() => {
+            modalImg.classList.remove('scale-95');
+            modalImg.classList.add('scale-100');
+        }, 10);
+    }
+}
+
+// ฟังก์ชันปิดรูป
+window.closeModal = function() {
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-img');
+
+    if (modal) {
+        modal.classList.add('hidden'); // ซ่อนกล่อง
+        
+        // Reset scale สำหรับครั้งหน้า
+        if(modalImg) {
+            modalImg.classList.remove('scale-100');
+            modalImg.classList.add('scale-95');
+        }
+    }
+}
+
 function renderProjects(data) {
     data.forEach((project) => {
         let htmlContent = "";
@@ -95,7 +128,10 @@ function renderProjects(data) {
             htmlContent += `
                 <div class="picture-describer"> 
                     <div class="img-frame">
-                        <img src="${img.src}" alt="${img.caption}" class=${classStyle}>
+                        <img src="${img.src}" 
+                            alt="${img.caption}" 
+                            class=${classStyle}
+                            onclick="openModal(this.src)">
                     </div>
                     <p>${img.caption}</p>
                 </div>
