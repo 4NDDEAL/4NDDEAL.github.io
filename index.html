@@ -31,11 +31,11 @@
             <div class="flex flex-col">
                 <button onclick="toggleMenu('highschool-menu')" id="btn-highschool"
                     class="nav-item flex justify-between items-center">
-                    Highschool
+                    Highschool Level
                     <span class="text-xs transition-transform duration-300" id="arrow-highschool-menu">▼</span>
                 </button>
 
-                <div id="highschool-menu" class="flex flex-col pl-4 border-l border-gray-700 ml-4 transition-all duration-500 ease-in-out overflow-hidden max-h-0 opacity-0">
+                <div id="highschool-menu" class="dropdown">
                     <button onclick="showPage('highschool-achievements')" id="btn-highschool-achievements" class="nav-item text-sm py-2">
                         Achievements
                     </button>
@@ -48,11 +48,11 @@
             <div class="flex flex-col mt-2">
                 <button onclick="toggleMenu('university-menu')" id="btn-university"
                     class="nav-item flex justify-between items-center">
-                    University
+                    University Level
                     <span class="text-xs transition-transform duration-300" id="arrow-university-menu">▼</span>
                 </button>
 
-                <div id="university-menu" class="flex flex-col pl-4 border-l border-gray-700 ml-4 transition-all duration-500 ease-in-out overflow-hidden max-h-0 opacity-0">
+                <div id="university-menu" class="dropdown">
                     <button onclick="showPage('university-achievements')" id="btn-university-achievements" class="nav-item text-sm py-2">
                         Achievements
                     </button>
@@ -91,7 +91,9 @@
 
             <div id="grade" class="page-section hidden fade-in">
                 <h2 class="section-title">Grade</h2>
-                <div id="grade-content"></div>
+                <div class="section-subtitle" id="grade-content">
+
+                </div>
             </div>
 
             <div id="highschool-achievements" class="page-section hidden fade-in">

@@ -108,5 +108,33 @@
         { "src": "assets/images/University/ISquared4.jpg", "caption": "Example Pic (2) <br> can't use real img due to NDA" },
         { "src": "assets/images/University/ISquared2.png", "caption": "Icon" }
         ]
+    },
+    {
+        "title": "CP LINK 2025",
+        "subtitle": "Managed the registration logistics for CP Link, an alumni event facilitating knowledge exchange between current students and tech professionals.",
+        "role": "Registration Team Handled recruitment forms and tracked attendance.",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/CPLINK2.jpg", "caption": "Tracked Attendanc (1)" },
+        { "src": "assets/images/University/CPLINK3.jpg", "caption": "Tracked Attendanc (2)" },
+        { "src": "assets/images/University/CPLINK1.jpg", "caption": "Form Snippet" }
+        ]
+    },
+    {
+        "title": "FEST 2025 (Fundamental Engineering Simulation Test)",
+        "subtitle": "Served as an Academic Instructor for the FEST event, teaching mathematical concepts to an audience of over 200 high school students.",
+        "role": "Academic Team Responsible for teaching and upskilling juniors.",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/FE1.jpg", "caption": "Teaching session (1)" },
+        { "src": "assets/images/University/FE2.jpg", "caption": "Teaching session (2)" },
+        { "src": "assets/images/University/FE3.jpg", "caption": "Temporary MC" },
+        { "src": "assets/images/University/FE4.jpg", "caption": "Event Snapshots (1)" },
+        { "src": "assets/images/University/FE5.jpg", "caption": "Event Snapshots (2)" },
+        { "src": "assets/images/University/FE6.jpg", "caption": "Event Snapshots (3)" },
+        { "src": "assets/images/University/FE7.jpg", "caption": "Event Snapshots (4)" }
+        ]
     }
 ]
