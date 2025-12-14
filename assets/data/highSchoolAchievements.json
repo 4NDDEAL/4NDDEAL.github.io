@@ -1,0 +1,61 @@
+[
+    {
+        "title": "POSN Academic Camp (Mathematics)",
+        "subtitle": "Completed the POSN Mathematics Olympiad Camp 1 (Academic Year 2023 and 2024)",
+        "images": [
+        { "src": "assets/images/HighSchool/POSNcer0.png", "caption": "Certificate 2023" },
+        { "src": "assets/images/HighSchool/POSNcer1.jpg", "caption": "Certificate 2024" },
+        { "src": "assets/images/HighSchool/POSN01.jpg", "caption": "Receive a certificate 2023" },
+        { "src": "assets/images/HighSchool/POSN12.jpg", "caption": "Receive a certificate 2024" },
+        { "src": "assets/images/HighSchool/POSN11.jpg", "caption": "Group Photo (1)" },
+        { "src": "assets/images/HighSchool/POSN14.jpg", "caption": "Group Photo (2)" },
+        { "src": "assets/images/HighSchool/POSN13.jpg", "caption": "Solving Problem" }
+        ]
+    },
+    {
+        "title": "Mathematics Competition by MAT",
+        "subtitle": "Received a Commendation Award (Good Level) Academic Year 2024",
+        "images": [
+        { "src": "assets/images/HighSchool/Samakom.jpeg", "caption": "Commendation Award", "type": "report"}
+        ]
+    },
+    {
+        "title": "Mathematics Proficiency Competition",
+        "subtitle": "Bronze Medalist at the 70th Student Arts and Crafts Competition (Secondary Educational Service Area Level), Academic Year 2022",
+        "images": [
+        { "src": "assets/images/HighSchool/SilapahatakamCer.png", "caption": "Certificate"}
+        ]
+    },
+    {
+        "title": "Smart Hydroponic iot Project",
+        "subtitle": "Engineered and implemented an IoT-based Automated Control System for hydroponics cultivation",
+        "role": "Lead Developer & QA Specialist / Hydroponics Manager",
+        "images": [
+        { "src": "assets/images/HighSchool/SmartHydroPonic1.jpg", "caption": "The Prototype"},
+        { "src": "assets/images/HighSchool/SmartHydroPonic2.jpg", "caption": "Circuit"},
+        { "src": "assets/images/HighSchool/SmartHydroPonic3.jpg", "caption": "Group Photo"},
+        { "src": "assets/images/HighSchool/SmartHydroPonic4.png", "caption": "Academic Poster", "type": "report"}
+        ]
+    },
+    {
+        "title": "Smart Pet Cage iot Project",
+        "subtitle": "This project aims to develop technology that streamlines daily pet care. It specifically addresses the challenges faced by owners who cannot feed or attend to their pets due to busy schedules or time away from home.",
+        "role": "Designer & Programmer",
+        "images": [
+        { "src": "assets/images/HighSchool/SmartPetCage2.png", "caption": "The Prototype"},
+        { "src": "assets/images/HighSchool/SmartPetCage1.png", "caption": "Circuit For Feeder"},
+        { "src": "assets/images/HighSchool/SmartPetCageFace.jpg", "caption": "School's Facebook"}
+        ]
+    },
+    {
+        "title": "School level Debate",
+        "subtitle": "Proudly presenting the 1st Runner-Up title to a team that showcased formidable logic Academic Year 2023",
+        "role": "Head of Team & Prime Mover",
+        "images": [
+        { "src": "assets/images/HighSchool/debate0.jpg", "caption": "Before Debating"},
+        { "src": "assets/images/HighSchool/debate1.jpg", "caption": "Debating"},
+        { "src": "assets/images/HighSchool/debate2.jpg", "caption": "Team Group Photo"},
+        { "src": "assets/images/HighSchool/debate3.jpg", "caption": "Award Ceremony"}
+        ]
+    }
+]
