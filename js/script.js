@@ -18,14 +18,18 @@ function showPage(pageId) {
     }
 }
 
-function renderProjects(data , type) {
-    const container = type==="highschool" ? document.getElementById('highschool-achievements-content') : document.getElementById('university-achievements-content');
-    
-    if (!container) return; 
+function toggleMenu(menuId) {
+    const menu = document.getElementById(menuId);
+    if (menu) {
+        menu.classList.toggle('hidden');
+    }
+}
 
-    let htmlContent = "";
-
+function renderProjects(data) {
     data.forEach((project, index) => {
+        let htmlContent = "";
+        const container = document.getElementById(`${project.level}-${project.catagory}-content`);
+        if (!container) return; 
         htmlContent += `
             <section>
                 <p class="achievements-name">${project.title}</p>
@@ -62,26 +66,33 @@ function renderProjects(data , type) {
             </section>
         `;
 
-        if (index < data.length - 1) {
-            htmlContent += `<hr class="border-t-2 border-black my-10 opacity-80">`;
-        }
+        htmlContent += `<hr class="border-t-2 border-black my-10 opacity-80">`;
+        
+        container.innerHTML += htmlContent;
     });
-    container.innerHTML = htmlContent;
+    
 }
 
 async function loadAchievements() {
     try {
-        const responsehighschool = await fetch('./assets/data/highSchoolAchievements.json');
-        const responseuniversity = await fetch('./assets/data/universityAchievements.json');
+        const response = await fetch('./assets/data/data.json');
 
-        if (!responsehighschool.ok) { throw new Error(`HTTP error! status: ${responsehighschool.status}`);} 
-        if (!responseuniversity.ok) { throw new Error(`HTTP error! status: ${responseuniversity.status}`);} 
+        if(!response.ok) {throw new Error(`HTTP error! status : ${response.status}`) ; }
 
-        const highSchoolAchievements = await responsehighschool.json();
-        const universityAchievements = await responseuniversity.json();
+        const work = await response.json();
 
-        renderProjects(highSchoolAchievements,"highschool");
-        renderProjects(universityAchievements,"university");
+        renderProjects(work);
+        // const responsehighschool = await fetch('./assets/data/highSchoolAchievements.json');
+        // const responseuniversity = await fetch('./assets/data/universityAchievements.json');
+
+        
+        // if (!responsehighschool.ok) { throw new Error(`HTTP error! status: ${responsehighschool.status}`);} 
+        // if (!responseuniversity.ok) { throw new Error(`HTTP error! status: ${responseuniversity.status}`);} 
+        // const highSchoolAchievements = await responsehighschool.json();
+        // const universityAchievements = await responseuniversity.json();
+
+        // renderProjects(highSchoolAchievements,"highschool");
+        // renderProjects(universityAchievements,"university");
     } catch (error) {
         console.error('Error loading JSON:', error);
     }

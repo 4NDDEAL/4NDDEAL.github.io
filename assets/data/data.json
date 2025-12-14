@@ -2,6 +2,8 @@
     {
         "title": "POSN Academic Camp (Mathematics)",
         "subtitle": "Completed the POSN Mathematics Olympiad Camp 1 (Academic Year 2023 and 2024)",
+        "level": "highschool",
+        "catagory": "achievements",
         "images": [
         { "src": "assets/images/HighSchool/POSNcer0.png", "caption": "Certificate 2023" },
         { "src": "assets/images/HighSchool/POSNcer1.jpg", "caption": "Certificate 2024" },
@@ -15,6 +17,8 @@
     {
         "title": "Mathematics Competition by MAT",
         "subtitle": "Received a Commendation Award (Good Level) Academic Year 2024",
+        "level": "highschool",
+        "catagory": "achievements",
         "images": [
         { "src": "assets/images/HighSchool/Samakom.jpeg", "caption": "Commendation Award", "type": "report"}
         ]
@@ -22,6 +26,8 @@
     {
         "title": "Mathematics Proficiency Competition",
         "subtitle": "Bronze Medalist at the 70th Student Arts and Crafts Competition (Secondary Educational Service Area Level), Academic Year 2022",
+        "level": "highschool",
+        "catagory": "achievements",
         "images": [
         { "src": "assets/images/HighSchool/SilapahatakamCer.png", "caption": "Certificate"}
         ]
@@ -30,6 +36,8 @@
         "title": "Smart Hydroponic iot Project",
         "subtitle": "Engineered and implemented an IoT-based Automated Control System for hydroponics cultivation",
         "role": "Lead Developer & QA Specialist / Hydroponics Manager",
+        "level": "highschool",
+        "catagory": "experiences",
         "images": [
         { "src": "assets/images/HighSchool/SmartHydroPonic1.jpg", "caption": "The Prototype"},
         { "src": "assets/images/HighSchool/SmartHydroPonic2.jpg", "caption": "Circuit"},
@@ -41,6 +49,8 @@
         "title": "Smart Pet Cage iot Project",
         "subtitle": "This project aims to develop technology that streamlines daily pet care. It specifically addresses the challenges faced by owners who cannot feed or attend to their pets due to busy schedules or time away from home.",
         "role": "Designer & Programmer",
+        "level": "highschool",
+        "catagory": "experiences",
         "images": [
         { "src": "assets/images/HighSchool/SmartPetCage2.png", "caption": "The Prototype"},
         { "src": "assets/images/HighSchool/SmartPetCage1.png", "caption": "Circuit For Feeder"},
@@ -51,11 +61,52 @@
         "title": "School level Debate",
         "subtitle": "Proudly presenting the 1st Runner-Up title to a team that showcased formidable logic Academic Year 2023",
         "role": "Head of Team & Prime Mover",
+        "level": "highschool",
+        "catagory": "achievements",
         "images": [
         { "src": "assets/images/HighSchool/debate0.jpg", "caption": "Before Debating"},
         { "src": "assets/images/HighSchool/debate1.jpg", "caption": "Debating"},
         { "src": "assets/images/HighSchool/debate2.jpg", "caption": "Team Group Photo"},
         { "src": "assets/images/HighSchool/debate3.jpg", "caption": "Award Ceremony"}
+        ]
+    },
+    {
+        "title": "CEDT Sandbox Hackathon 2025",
+        "subtitle": "Achieved  First Runner-Up in CEDT Sandbox Hackathon, a competition focused on developing startup innovations.",
+        "role": "Main Pitcher",
+        "level": "university",
+        "catagory": "achievements",
+        "images": [
+        { "src": "assets/images/University/Sandbox1.png", "caption": "Finalist Round" },
+        { "src": "assets/images/University/Sandbox2.png", "caption": "Attend Business Model Workshop" },
+        { "src": "assets/images/University/Sandbox3.png", "caption": "Pitch Deck (1)" },
+        { "src": "assets/images/University/Sandbox4.png", "caption": "Pitch Deck (2)" }
+        ]
+    },
+    {
+        "title": "CP CUP 2025",
+        "subtitle": "Achieved Second Runner-Up status in the CP CUP Digital Innovation Track, recognized for developing impactful digital innovations for CP Group.",
+        "role": "Main Pitcher and Data qualifier",
+        "level": "university",
+        "catagory": "achievements",
+        "images": [
+        { "src": "assets/images/University/CPCUP1.jpg", "caption": "Digital Track Group Photo" },
+        { "src": "assets/images/University/CPCUP2.jpg", "caption": "All Track Group Photo" },
+        { "src": "assets/images/University/CPCUP3.png", "caption": "Pitch Deck (1)" },
+        { "src": "assets/images/University/CPCUP4.png", "caption": "Pitch Deck (2)" }
+        ]
+    },
+    {
+        "title": "I-Squared Hackathon",
+        "subtitle": "Medical AI Innovation: Enhancing prediction capabilities through strategic Data Augmentation and Model Optimization. Awarded as a Finalist.",
+        "role": "Machine Learning Engineer",
+        "level": "university",
+        "catagory": "achievements",
+        "images": [
+        { "src": "assets/images/University/ISquared1.png", "caption": "Code Snippet" },
+        { "src": "assets/images/University/ISquared3.jpg", "caption": "Example Pic (1) <br> can't use real img due to NDA" },
+        { "src": "assets/images/University/ISquared4.jpg", "caption": "Example Pic (2) <br> can't use real img due to NDA" },
+        { "src": "assets/images/University/ISquared2.png", "caption": "Icon" }
         ]
     }
 ]

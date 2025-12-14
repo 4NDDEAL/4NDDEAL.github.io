@@ -19,7 +19,8 @@
 
         <nav class="flex-1 overflow-y-auto no-scrollbar py-6 px-4 space-y-2">
             <button onclick="showPage('about')" id="btn-about" 
-                class="nav-item nav-item-active"> About Me
+                class="nav-item nav-item-active"> 
+                About Me
             </button>
 
             <button onclick="showPage('grade')" id="btn-grade"
@@ -27,15 +28,39 @@
                 Grade
             </button>
 
-            <button onclick="showPage('highschool')" id="btn-highschool" 
-                class="nav-item">
-                High School Achievements
-            </button>
+            <div class="flex flex-col">
+                <button onclick="toggleMenu('highschool-menu')" id="btn-highschool" 
+                    class="nav-item flex justify-between items-center">
+                    Highschool Level
+                    <span class="text-xs">▼</span>
+                </button>
 
-            <button onclick="showPage('university')" id="btn-university" 
-                class="nav-item">
-                University Achievements
-            </button>
+                <div id="highschool-menu" class="hidden dropdown">
+                    <button onclick="showPage('highschool-achievements')" id="btn-highschool-achievements" class="nav-item text-sm">
+                        Achievements
+                    </button>
+                    <button onclick="showPage('highschool-experiences')" id="btn-highschool-experiences" class="nav-item text-sm">
+                        Experiences
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-col mt-2">
+                <button onclick="toggleMenu('university-menu')" id="btn-university" 
+                    class="nav-item flex justify-between items-center">
+                    University Level
+                    <span class="text-xs">▼</span>
+                </button>
+
+                <div id="university-menu" class="hidden dropdown">
+                    <button onclick="showPage('university-achievements')" id="btn-university-achievements" class="nav-item text-sm">
+                        Achievements
+                    </button>
+                    <button onclick="showPage('university-experiences')" id="btn-university-experiences" class="nav-item text-sm">
+                        Experiences
+                    </button>
+                </div>
+            </div>
         </nav>
     </aside>
 
@@ -69,14 +94,24 @@
                 <div id="grade-content"></div>
             </div>
 
-            <div id="highschool" class="page-section hidden fade-in">
+            <div id="highschool-achievements" class="page-section hidden fade-in">
                 <h2 class="section-title">High School Achievements</h2>
                 <div id="highschool-achievements-content"></div>
             </div>
 
-            <div id="university" class="page-section hidden fade-in">
+            <div id="university-achievements" class="page-section hidden fade-in">
                 <h2 class="section-title">University Achievements</h2>
                 <div id="university-achievements-content"></div>
+            </div>
+
+            <div id="highschool-experiences" class="page-section hidden fade-in">
+                <h2 class="section-title">High School Experiences</h2>
+                <div id="highschool-experiences-content"></div>
+            </div>
+
+            <div id="university-experiences" class="page-section hidden fade-in">
+                <h2 class="section-title">University Experiences</h2>
+                <div id="university-experiences-content"></div>
             </div>
 
         </div>
