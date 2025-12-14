@@ -26,10 +26,10 @@
         "subtitle": "Medical AI Innovation: Enhancing prediction capabilities through strategic Data Augmentation and Model Optimization. Awarded as a Finalist.",
         "role": "Machine Learning Engineer",
         "images": [
-        { "src": "assets/images/University/iSquared1.png", "caption": "Code Snippet" },
+        { "src": "assets/images/University/ISquared1.png", "caption": "Code Snippet" },
         { "src": "assets/images/University/ISquared3.jpg", "caption": "Example Pic (1) <br> can't use real img due to NDA" },
-        { "src": "assets/images/University/iSquared4.jpg", "caption": "Example Pic (2) <br> can't use real img due to NDA" },
-        { "src": "assets/images/University/iSquared2.png", "caption": "Icon" }
+        { "src": "assets/images/University/ISquared4.jpg", "caption": "Example Pic (2) <br> can't use real img due to NDA" },
+        { "src": "assets/images/University/ISquared2.png", "caption": "Icon" }
         ]
     }
 ]
