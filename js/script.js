@@ -65,7 +65,7 @@ function renderProjects(data) {
         project.images.forEach(img => {
             let classStyle = img.type === "report" ? "img-report-style" : "img-style";
             htmlContent += `
-                <div class="picture-describer hover:text-blue-600 transition-colors"> 
+                <div class="picture-describer"> 
                     <div class="img-frame">
                         <img src="${img.src}" alt="${img.caption}" class=${classStyle}>
                     </div>

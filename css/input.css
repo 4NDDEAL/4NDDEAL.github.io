@@ -39,7 +39,18 @@
     .picture-describer:hover .img-report-style {
         @apply scale-105; 
     }
-
+    .picture-describer:hover .grade-report {
+        @apply scale-110; 
+    }
+    .picture-describer:hover .fullpic {
+        @apply scale-105; 
+    }
+    .grade-report{
+        @apply w-full h-full object-cover transition-transform duration-700;
+    }
+    .fullpic {
+        @apply w-full h-full object-cover transition-transform duration-700;
+    }
     .dropdown {
         @apply flex flex-col pl-4 border-l border-gray-700 ml-4 transition-all duration-500 ease-in-out overflow-hidden max-h-0 opacity-0;
     }
