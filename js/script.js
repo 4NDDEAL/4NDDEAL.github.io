@@ -18,7 +18,7 @@ function showPage(pageId) {
     }
 }
 
-window.toggleMenu = function(menuId) {
+function toggleDropDown(menuId) {
     const menu = document.getElementById(menuId);
     if (menu) {
         menu.classList.toggle('hidden');
