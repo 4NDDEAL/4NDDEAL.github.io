@@ -38,8 +38,36 @@ window.toggleMenu = function(menuId) {
     }
 }
 
+window.toggleSidebar = function() {
+    const sidebar = document.getElementById('sidebar');
+    const mainContent = document.getElementById('main-content');
+    const toggleBtn = document.getElementById('sidebar-toggle-btn'); 
+
+    if (sidebar) {
+        sidebar.classList.toggle('-translate-x-full');
+
+        const isSidebarOpen = !sidebar.classList.contains('-translate-x-full');
+
+        if (mainContent) {
+            if (isSidebarOpen) {
+                mainContent.classList.add('md:ml-72');
+            } else {
+                mainContent.classList.remove('md:ml-72');
+            }
+        }
+
+        if (toggleBtn) {
+            if (isSidebarOpen) {
+                toggleBtn.classList.add('md:translate-x-72');
+            } else {
+                toggleBtn.classList.remove('md:translate-x-72');
+            }
+        }
+    }
+}
+
 function renderProjects(data) {
-    data.forEach((project, index) => {
+    data.forEach((project) => {
         let htmlContent = "";
         const container = document.getElementById(`${project.level}-${project.catagory}-content`);
         if (!container) return; 

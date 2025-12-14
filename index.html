@@ -10,7 +10,17 @@
 </head>
 <body class="bg-white text-black h-screen overflow-hidden flex">
 
-    <aside class="w-72 bg-black text-white h-full flex flex-col shadow-2xl z-10">
+    <button onclick="toggleSidebar()" id="sidebar-toggle-btn"
+    class="fixed top-4 left-4 z-50 bg-black text-white p-3 rounded-full shadow-lg hover:bg-gray-800 transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+
+    <aside id="sidebar" 
+        class="bg-black text-white h-full flex flex-col shadow-2xl z-40 
+            fixed inset-y-0 left-0 w-72 transition-transform duration-300 ease-in-out
+            transform -translate-x-full">
         
         <div class="p-8 border-b border-gray-800">
             <h1 class="text-2xl font-bold tracking-wider">Pan Wongworachatkan</h1>
@@ -25,7 +35,7 @@
 
             <button onclick="showPage('grade')" id="btn-grade"
                 class="nav-item"> 
-                Grade
+                Academic Records
             </button>
 
             <div class="flex flex-col">
@@ -64,7 +74,7 @@
         </nav>
     </aside>
 
-    <main class="flex-1 h-full overflow-y-auto bg-white relative">
+    <main id="main-content" class="flex-1 h-full overflow-y-auto bg-white relative transition-all duration-300">
         <div class="max-w-4xl mx-auto p-12 min-h-screen">
             
             <div id="about" class="page-section fade-in">
@@ -90,7 +100,7 @@
             </div>
 
             <div id="grade" class="page-section hidden fade-in">
-                <h2 class="section-title">Grade</h2>
+                <h2 class="section-title">Academic Records</h2>
                 <div class="section-subtitle" id="grade-content">
                     <p class="achievements-name"> Highschool Grades </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-6">
