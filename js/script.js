@@ -117,7 +117,7 @@ function renderProjects(data) {
         }
 
         htmlContent += `
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         `;
 
         project.images.forEach(img => {

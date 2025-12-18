@@ -136,5 +136,17 @@
         { "src": "assets/images/University/FE6.jpg", "caption": "Event Snapshots (3)" },
         { "src": "assets/images/University/FE7.jpg", "caption": "Event Snapshots (4)" }
         ]
+    },
+    {
+        "title": "CEDT OVENBREAK 2025",
+        "subtitle": "Achieved the first perfect score among over 200 CEDT students at OVENBREAK, a pre-semester competitive programming event organized by seniors. Additionally recognized for submitting the fastest solution for Problem #3.",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/OVENBREAK1.jpg", "caption": "First Solver Award" },
+        { "src": "assets/images/University/OVENBREAK3.jpg", "caption": "Problem #3 First Solver Award" },
+        { "src": "assets/images/University/OVENBREAK2.jpg", "caption": "First Solver For Training Question Award" }
+        
+        ]
     }
 ]
