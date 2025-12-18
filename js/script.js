@@ -66,16 +66,15 @@ window.toggleSidebar = function() {
     }
 }
 
-// ฟังก์ชันเปิดรูป
+
 window.openModal = function(imageSrc) {
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-img');
 
     if (modal && modalImg) {
-        modalImg.src = imageSrc; // เอารูปที่กดมาใส่
-        modal.classList.remove('hidden'); // โชว์กล่อง
+        modalImg.src = imageSrc; 
+        modal.classList.remove('hidden'); 
         
-        // (Optional) Animation เล็กน้อย
         setTimeout(() => {
             modalImg.classList.remove('scale-95');
             modalImg.classList.add('scale-100');
@@ -83,15 +82,13 @@ window.openModal = function(imageSrc) {
     }
 }
 
-// ฟังก์ชันปิดรูป
 window.closeModal = function() {
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-img');
 
     if (modal) {
-        modal.classList.add('hidden'); // ซ่อนกล่อง
+        modal.classList.add('hidden'); 
         
-        // Reset scale สำหรับครั้งหน้า
         if(modalImg) {
             modalImg.classList.remove('scale-100');
             modalImg.classList.add('scale-95');
