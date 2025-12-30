@@ -146,7 +146,46 @@
         { "src": "assets/images/University/OVENBREAK1.jpg", "caption": "First Solver Award" },
         { "src": "assets/images/University/OVENBREAK3.jpg", "caption": "Problem #3 First Solver Award" },
         { "src": "assets/images/University/OVENBREAK2.jpg", "caption": "First Solver For Training Question Award" }
-        
+        ]
+    },
+    {
+        "title": "Digital Logic Comp CPU Project",
+        "subtitle": "Acted as the primary builder,building,design and assembling the core datapath and wiring components within the simulation.",
+        "role": "Lead Integrator",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/Diglo/1.png", "caption": "The CPU" }
+        ]
+    },
+    {
+        "title": "Intro to CEDT Final Project The Web That had to Connect With The AI API",
+        "subtitle": "Developed an AI-powered web application for cooking assistance utilizing Generative AI and prompt engineering. The system analyzes user inputs—either via menu names or food photos—to generate detailed recipes, cooking times, and nutritional values. Successfully presented the project to news agencies, resulting in a featured publication on the <br><br>  <strong> Website : </strong> <a href='https://www.chula.ac.th/news/261154/' target='_blank' style='color: #007bff;'>Chulalongkorn University website.</a><br> <strong>GitHub :</strong> <a href='https://github.com/natthasitwp/KrungSri' target='_blank' style='color: #007bff;'>View Repository.</a>",
+        "role": "Frontend Developer & Lead Presenter",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/I2CEDTProject/2.jpg", "caption": "Group Photo" },
+        { "src": "assets/images/University/I2CEDTProject/3.png", "caption": "Web Interface (1)" },
+        { "src": "assets/images/University/I2CEDTProject/4.png", "caption": "Web Interface (2)" }
+        ]
+    },
+    {
+        "title": "Larngear Camp #25 <br> (Engineering Camp by Chulalongkorn University)",
+        "subtitle": "Responsible for House Welfare and Operations, managing inventory and supplies. Assisted in recreation activities, supervised facility cleanliness, and designed creative assets (House Flag).",
+        "role": "Group Mentor and Welfare Officer",
+        "level": "university",
+        "catagory": "experiences",
+        "images": [
+        { "src": "assets/images/University/Larngear/1.jpg", "caption": "Group Photo (1)" },
+        { "src": "assets/images/University/Larngear/2.jpg", "caption": "Group Photo (2)" },
+        { "src": "assets/images/University/Larngear/3.jpg", "caption": "Group Photo (3)" },
+        { "src": "assets/images/University/Larngear/7.jpg", "caption": "Group Photo (4)" },
+        { "src": "assets/images/University/Larngear/5.jpg", "caption": "Event Snapshots (1)" },
+        { "src": "assets/images/University/Larngear/6.jpg", "caption": "Event Snapshots (2)" },
+        { "src": "assets/images/University/Larngear/4.jpg", "caption": "Event Snapshots (3)" },
+        { "src": "assets/images/University/Larngear/8.jpg", "caption": "Event Snapshots (4)" },
+        { "src": "assets/images/University/Larngear/9.jpg", "caption": "Event Snapshots (5)" }
         ]
     }
 ]
