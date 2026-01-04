@@ -72,7 +72,7 @@
     },
     {
         "title": "CEDT Sandbox Hackathon 2025",
-        "subtitle": "Achieved  First Runner-Up in CEDT Sandbox Hackathon, a competition focused on developing startup innovations.",
+        "subtitle": "Achieved  First Runner-Up in CEDT Sandbox Hackathon, a competition focused on developing startup innovations.  <br><br> Awarded 15,000 THB Cash Prize and Cloud Credits",
         "role": "Main Pitcher",
         "level": "university",
         "catagory": "achievements",
@@ -80,12 +80,13 @@
         { "src": "assets/images/University/Sandbox1.png", "caption": "Finalist Round" },
         { "src": "assets/images/University/Sandbox2.png", "caption": "Attend Business Model Workshop" },
         { "src": "assets/images/University/Sandbox3.png", "caption": "Pitch Deck (1)" },
-        { "src": "assets/images/University/Sandbox4.png", "caption": "Pitch Deck (2)" }
+        { "src": "assets/images/University/Sandbox4.png", "caption": "Pitch Deck (2)" },
+        { "src": "assets/images/University/Sandbox6.png", "caption": "1st Runner-Up" }
         ]
     },
     {
         "title": "CP CUP 2025",
-        "subtitle": "Achieved Second Runner-Up status in the CP CUP Digital Innovation Track, recognized for developing impactful digital innovations for CP Group.",
+        "subtitle": "Achieved Second Runner-Up status in the CP CUP Digital Innovation Track, recognized for developing impactful digital innovations for CP Group.  <br><br> Awarded 20,000 THB Cash Prize",
         "role": "Main Pitcher and Data qualifier",
         "level": "university",
         "catagory": "achievements",
